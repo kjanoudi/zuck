@@ -38,7 +38,7 @@ Gem::Specification.new do |s|
     "lib/zuck/facebook/ad_group.rb",
     "lib/zuck/facebook/ad_interest.rb",
     "lib/zuck/facebook/ad_set.rb",
-    "lib/zuck/facebook/offsite_pixel.rb",
+    "lib/zuck/facebook/offsite_pixelg.rb",
     "lib/zuck/facebook/targeting_spec.rb",
     "lib/zuck/fb_object.rb",
     "lib/zuck/fb_object/dsl.rb",
