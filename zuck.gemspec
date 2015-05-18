@@ -6,14 +6,14 @@
 
 Gem::Specification.new do |s|
   s.name = "zuck"
-  s.version = "2.1.0"
+  s.version = "2.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Jannis Hermanns"]
-  s.date = "2015-04-15"
-  s.description = "This gem allows to easily access facebook's ads api in ruby. See https://developers.facebook.com/docs/reference/ads-api/"
-  s.email = "jannis@gmail.com"
+  s.authors = ["Kareem Janoudi"]
+  s.date = "2015-05-17"
+  s.description = "This is a fork of the Zuck gem."
+  s.email = "kjanoudi@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.markdown"
@@ -38,6 +38,7 @@ Gem::Specification.new do |s|
     "lib/zuck/facebook/ad_group.rb",
     "lib/zuck/facebook/ad_interest.rb",
     "lib/zuck/facebook/ad_set.rb",
+    "lib/zuck/facebook/offsite_pixel.rb",
     "lib/zuck/facebook/targeting_spec.rb",
     "lib/zuck/fb_object.rb",
     "lib/zuck/fb_object/dsl.rb",
